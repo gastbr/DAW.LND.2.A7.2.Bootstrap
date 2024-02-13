@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>7.2 Actividad sobre “Paginations, List Groups, Cards y Dropdown” con Bootstrap 5.</title>
+</head>
+
+<body>
+    <header class="bg-info bg-gradient">
+        <h1 class="text-center display-3 p-5 m-0">Libros.net</h1>
+        <ul class="pagination pagination-lg justify-content-center">
+            <li class="page-item"><a class="page-link" href="comedia.html"><span class="text-muted small">Anterior</span></a></li>
+            <li class="page-item"><a class="page-link" href="index.html">Drama</a></li>
+            <li class="page-item"><a class="page-link" href="comedia.html">Comedia</a></li>
+            <li class="page-item"><a class="page-link active" href="terror.html">Terror</a></li>
+            <li class="page-item"><a class="page-link" href="index.html"><span class="text-muted small">Siguiente</span></a></li>
+        </ul>
+    </header>
+
+    <main>
+
+        <section>
+            <h2 class="text-center lead my-3">Top 5 libros más vendidos:</h2>
+
+            <div class="dropdown text-center">
+                <button type="button" class="btn btn-outline-danger dropdown-toggle" data-bs-toggle="dropdown">Top 5 más
+                    vendidos</button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Top más recomendados</a></li>
+                    <li><a class="dropdown-item" href="#">Top mejor valorados</a></li>
+                </ul>
+            </div>
+
+            <article class="row d-flex flex-column flex-md-row justify-content-evenly">
+                <div class="col-2">
+                    <div class="card m-3">
+                        <img src="img/11.jpg" alt="Portada del libro 11." class="card-img-top">
+                        <div class="card-body">
+                            <h4><i>Blunder</i></h4>
+                            <p class="lead">de Zachary Shore</p>
+                            <a class="btn btn-primary" href="#">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-2">
+                    <div class="card m-3">
+                        <img src="img/12.jpg" alt="Portada del libro 12." class="card-img-top">
+                        <div class="card-body">
+                            <h4><i>Deep Freeze: Iceland's Economic Collapse</i></h4>
+                            <p class="lead">de Philipp Bagus y David Howden</p>
+                            <a class="btn btn-primary" href="#">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-2">
+                    <div class="card m-3">
+                        <img src="img/13.jpg" alt="Portada del libro 13." class="card-img-top">
+                        <div class="card-body">
+                            <h4><i>Hard Target</i></h4>
+                            <p class="lead">de J. B. Turner</p>
+                            <a class="btn btn-primary" href="#">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-2">
+                    <div class="card m-3">
+                        <img src="img/14.jpg" alt="Portada del libro 14." class="card-img-top">
+                        <div class="card-body">
+                            <h4><i>Hard Vengeance</i></h4>
+                            <p class="lead">de J. B. Turner</p>
+                            <a class="btn btn-primary" href="#">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-2">
+                    <div class="card m-3">
+                        <img src="img/15.webp" alt="Portada del libro 15." class="card-img-top">
+                        <div class="card-body">
+                            <h4><i>Scenes and Studies in Iceland</i></h4>
+                            <p class="lead">anónimo</p>
+                            <a class="btn btn-primary" href="#">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+
+            </article>
+
+            <article class="m-3">
+                <ul class="text-center list-group list-group-flush">
+                    <li class="list-group-item">1) <i>Fiesta (The Sun Also Rises)</i> de Ernest Hemingway</li>
+                    <li class="list-group-item">
+                        <p>Fiesta (en inglés The Sun Also Rises) es una novela de Ernest Hemingway (1899-1961). Escrita en 1926, está considerada la primera obra de importancia del autor. En ella describe la historia de una serie de personajes pertenecientes a la llamada Generación perdida del período de entreguerras, en una serie de viajes en Francia y España.</p>
+                    </li>
+                    <li class="list-group-item">2) <i>The Dream</i> de H. G. Wells</li>
+                    <li class="list-group-item">
+                        <p>El sueño es una novela de 1924 de H. G. Wells sobre un hombre de un futuro utópico que sueña la vida entera de un inglés de las épocas victoriana y eduardiana, Harry Mortimer Smith. Como en otras novelas de este período, en The Dream Wells se representa el presente como una "Era de confusión" de la que la humanidad podrá salir con la ayuda de la ciencia y el sentido común.</p>
+                    </li>
+                    <li class="list-group-item">3) <i>The Book</i> de M. Clifford</li>
+                    <li class="list-group-item">
+                        <p>Comienza con cuatro palabras: "No leas el libro". Toda la información, pasada y presente, está controlada por The Book, un dispositivo de lectura digital portátil que existe en un futuro distópico, sostenible y sin papel que se parece sorprendentemente al nuestro.</p>
+                    </li>
+                    <li class="list-group-item">4) <i>Madeline</i> de Ludwig Bemelmans</li>
+                    <li class="list-group-item">
+                        <p>Madeline es un personaje emblemático de la literatura infantil. Nació hace más de 75 años, de la mano del pintor y escritor austro-americano Ludwig Bemelmans. Las aventuras de esta singular colegiala parisina, su valentía y su sombrerito amarillo, han conseguido atraer a generaciones de lectores.
+                            </p>
+                    </li>
+                    <li class="list-group-item">5) <i>Kask</i> de Maciej Kuczyński</li>
+                    <li class="list-group-item">
+                        <p>Maciej Kuczyński (nacido el 15 de abril de 1929 en Varsovia, re. 5 de agosto de 2019) - escritor, arquitecto, espeleólogo y explorador polaco. Hijo de Stefan y Danuta de soltera Kryńska. Durante la guerra, cuando era adolescente, se ofreció como voluntario en el Levantamiento de Varsovia (apodado "Rosomak").</p>
+                    </li>
+      
+                </ul>
+            </article>
+        </section>
+    </main>
+
+    <footer class="container-fluid bg-info bg-gradient">
+        <aside>
+            <ul class="list-group bg-info bg-gradient p-4 text-center">
+                <li class="list-group-item bg-info bg-gradient text-muted">7.2 Actividad sobre “Paginations, List
+                    Groups, Cards y Dropdown” con Bootstrap 5.</li>
+                <li class="list-group-item bg-info bg-gradient text-muted">Realizado para el módulo LENGUAJE DE
+                    MARCAS Y SISTEMAS DE GESTIÓN DE LA INFORMACIÓN</li>
+                <li class="list-group-item bg-info bg-gradient text-muted">Por Gastón Bermúdez Rochietti</li>
+                <li class="list-group-item bg-info bg-gradient text-muted">Docente: Jonathan</li>
+            </ul>
+        </aside>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

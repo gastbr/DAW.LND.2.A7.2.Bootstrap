@@ -1,0 +1,10 @@
+-TRES PÁGINAS, cada una con:
+    -artículos con 5 imágenes y 5 textos
+    -1 modelo de pagination
+    -1 de list groups
+    -2 modelos de cards
+    -4 modelos de dropdowns
+    -modelo semántico completo
+    -validado
+
+        
